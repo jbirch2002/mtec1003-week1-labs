@@ -31,7 +31,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+total 0
+drwxr-xr-x   4 louisgoldford  staff   128 Jun 10 12:12 CU
 
 
 
@@ -43,7 +44,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.				Finale.plugins
+..				Max 8
 
 
 
@@ -56,7 +58,7 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 
 
@@ -64,7 +66,7 @@ Copy and paste the output below.
 5.  What key do I press to go to the previous command?
 ----------
 
-
+up arrow key 
 
 
 
@@ -72,14 +74,16 @@ Copy and paste the output below.
 6.  Name two flags/options that we used in this exercise.
 ----------
 
+-a (listed all the hidden stuff)
+-l (detailed view with metadata)
+
 
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
-
+ls
 
 
 
@@ -87,7 +91,7 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Documents 
 
 
 
