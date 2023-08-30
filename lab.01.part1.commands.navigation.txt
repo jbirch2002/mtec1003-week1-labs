@@ -16,7 +16,10 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Creative Cloud Files	Library			Public
+Desktop			Movies			Zotero
+Documents		Music
+Downloads		Pictures
 
 
 
