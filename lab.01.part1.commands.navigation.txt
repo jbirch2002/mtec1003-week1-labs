@@ -15,10 +15,15 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
-
+'3D Objects'/
+'3D Tutorial'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+... (There's a lot more from there!)
 
 ==========
 2.  Type:
@@ -27,10 +32,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
-
+'My Games'/
+'My Music'@
 
 ==========
 3.  Type:
@@ -39,11 +42,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
-
-
+ ./   ../  'My Games'/  'My Music'@  'My Pictures'@  'My Videos'@
 
 ==========
 4.  Type:
@@ -52,42 +51,28 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
-
-
-
+Up arrow key!
 
 ==========
 6.  Name two flags/options that we used in this exercise.
 ----------
-
-
+1. -l
+2. -a
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
-
-
-
-
+The ls command!
 
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
-
-
-
-
+Documents.
 
 ==========
 9.  Type:
@@ -96,9 +81,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
-
+bash: foo: command not found
 
 ==========
 10.  Type:
@@ -107,10 +90,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
-
-
+bash: foo: command not found
 
 
 ==========
@@ -120,10 +100,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
-
-
-
+The command is: ls
+The flag is: -a
+The argument is: Desktop
+The prompt is: $
 
 
 Lab 1 / Part 2 - Navigating the File System
@@ -138,16 +118,12 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
-
-
-
+mkdir
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
-
-
-
+cd 
 
 
 ==========
@@ -161,9 +137,7 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
-
-
+/c/Users/three/Documents
 
 
 ==========
@@ -174,10 +148,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
-
+'My Games'/  'My Music'@  'My Pictures'@  'My Videos'@   animals/
 
 ==========
 16. Type:
