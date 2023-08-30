@@ -16,23 +16,6 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-Applications
-Creative Cloud Files
-Desktop
-Documents
-Downloads
-Library
-Movies
-Music
-OM
-Pictures
-Public
-Spitfire
-get-pip.py
-github
-lgBin
-louis.goldford@columbia.edu Creative Cloud Files
-myClasses-Fall2020
 
 
 
@@ -45,11 +28,6 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-total 71632
-drwxr-xr-x@  10 louisgoldford  staff       320 Jun 15  2020 2019.taxes
-drwxrwxr-x@   5 louisgoldford  staff       160 Aug 30  2020 Adobe
-drwxr-xr-x    4 louisgoldford  staff       128 Jun  6  2020 CU
-drwxr-xr-x@   8 louisgoldford  staff       256 May 24  2020 Chroma
 
 
 
@@ -62,8 +40,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-.
-..
+
 
 
 
@@ -76,7 +53,6 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-ls: doesnotexist: No such file or directory
 
 
 
@@ -85,7 +61,6 @@ ls: doesnotexist: No such file or directory
 5.  What key do I press to go to the previous command?
 ----------
 
-up arrow
 
 
 
@@ -94,15 +69,13 @@ up arrow
 6.  Name two flags/options that we used in this exercise.
 ----------
 
--l
--a
 
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-ls
+
 
 
 
@@ -112,7 +85,7 @@ ls
 ----------
 
 
-Documents
+
 
 
 
@@ -125,8 +98,6 @@ Copy and paste the output below.
 ----------
 
 
--bash: foo: command not found
-
 
 
 ==========
@@ -138,7 +109,6 @@ Copy and paste the output below.
 ----------
 
 
--bash: foo: command not found
 
 
 
@@ -151,10 +121,9 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-command: ls
-flag/option: -a
-argument: Desktop
-prompt: $
+
+
+
 
 
 Lab 1 / Part 2 - Navigating the File System
@@ -170,7 +139,6 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-mkdir mtec1003
 
 
 
@@ -178,7 +146,6 @@ mkdir mtec1003
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-cd mtec1003
 
 
 
@@ -195,7 +162,6 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-/Users/louisgoldford/mtec1003
 
 
 
@@ -209,7 +175,6 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals
 
 
 
@@ -223,7 +188,6 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	food
 
 
 
@@ -251,7 +215,6 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-/Users/louisgoldford/mtec1003/foo/bar/baz/qux
 
 
 
@@ -265,7 +228,6 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-/Users/louisgoldford/mtec1003/foo/bar
 
 
 
@@ -279,7 +241,6 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-/Users/louisgoldford/mtec1003/foo/bar/baz/qux
 
 
 
@@ -293,7 +254,6 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-/Users/louisgoldford/mtec1003
 
 
 
@@ -308,9 +268,6 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-total 0
-drwxr-xr-x  3 louisgoldford  staff  96 Jan 31 16:26 foo
-drwxr-xr-x  2 louisgoldford  staff  64 Jan 31 16:24 food
 
 
 
@@ -324,7 +281,6 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-/Users/louisgoldford
 
 
 
@@ -338,7 +294,6 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-/Volumes
 
 
 
@@ -352,7 +307,6 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-/Volumes
 
 
 
@@ -366,7 +320,6 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-/Users/louisgoldford/mtec1003
 
 
 
@@ -379,7 +332,6 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-Louiss-iMac-2.local
 
 
 
@@ -388,8 +340,6 @@ Louiss-iMac-2.local
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-pwd
-/Users/louisgoldford/mtec1003
 
 
 
@@ -401,7 +351,6 @@ cd ~/mtec1003
 Otherwise skip this question/step!
 ----------
 
-SKIP!
 
 
 
@@ -419,7 +368,6 @@ lemon
 Write the one command you used below:
 ----------
 
-mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -430,7 +378,6 @@ mkdir -p pineapple/orange/strawberry/lemon
 Write the command you used to create the directory below:
 ----------
 
-mkdir aardvark
 
 
 
@@ -441,7 +388,6 @@ mkdir aardvark
 What is the modified date of the aardvark directory?
 ----------
 
-Jan 31 16:47
 
 
 
@@ -456,7 +402,6 @@ Jan 31 16:47
 What command did you use?
 ----------
 
-mkdir -p foo/bar/baz
 
 
 
@@ -467,7 +412,6 @@ mkdir -p foo/bar/baz
 What command did you use?
 ----------
 
-cd foo/bar/baz
 
 
 
@@ -478,7 +422,6 @@ cd foo/bar/baz
 What command did you use?
 ----------
 
-cd ../..
 
 
 
@@ -487,7 +430,6 @@ cd ../..
 36. What command is used to delete empty directories?
 ----------
 
-rmdir
 
 
 
@@ -496,7 +438,6 @@ rmdir
 37. What command is used to print out your current working directory?
 ----------
 
-pwd
 
 
 
@@ -505,7 +446,6 @@ pwd
 38. What flag do I pass to ls to print out all files?
 ----------
 
--a
 
 
 
@@ -514,7 +454,6 @@ pwd
 39. What's the shortcut for home directory?
 ----------
 
-cd ~
 
 
 
@@ -523,7 +462,6 @@ cd ~
 40. What's a pathname?
 ----------
 
-A pathname is the gerneal form of the name of a file or directory; it specifies a unique location in a file system.
 
 
 
@@ -532,11 +470,6 @@ A pathname is the gerneal form of the name of a file or directory; it specifies 
 41. What is a directory?
 ----------
 
-a directory is a cataloging structure on a file system that references other files (and potentially other directories)
-we can think of it as. thing that contains files (it's a litttle more complex that that...) 
-they're usually used to organize files 
-
-Technically, on macOS a directory is a file itself! It's a file that lists the names of items on a disk or other pieces of storage media.
 
 
 
@@ -545,4 +478,3 @@ Technically, on macOS a directory is a file itself! It's a file that lists the n
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
 
-/Users/louisgoldford/Downloads
