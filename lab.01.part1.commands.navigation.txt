@@ -158,9 +158,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
+'My Games'/  'My Music'@  'My Pictures'@  'My Videos'@  animals/ food/
 
 
 ==========
@@ -171,10 +169,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-animals	foo	food
-
-
+'My Games'/  'My Pictures'@   animals/   food/
+'My Music'@  'My Videos'@     foo/
 
 
 ==========
@@ -185,10 +181,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
-
+No output. Navigated me to ~/Documents/foo/bar/baz/qux
 
 ==========
 19. Type:
@@ -198,9 +191,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
+No output. Navigated me to ~/Documents/foo/bar
 
 
 ==========
@@ -211,9 +202,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
+No output. Navigated me to ~/Documents/foo/bar/baz/qux
 
 
 ==========
@@ -224,10 +213,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
-
+No output. Navigated me to ~/Documents
 
 ==========
 22. Type:
@@ -238,10 +224,12 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
-
-
-
+'My Games'/
+'My Music'@
+'My Pictures'@
+'My Videos'@
+foo/
+food/
 
 ==========
 23. Type:
@@ -251,9 +239,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
+/c/Users/three
 
 
 ==========
@@ -264,10 +250,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+bash: cd: /Volumes: No such file or directory
+/c/Users/three
 
 ==========
 25. Type:
@@ -277,10 +261,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+bash: cd: /unknown_folder: No such file or directory
+/c/Users/three
 
 ==========
 26. Type:
@@ -290,10 +272,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+/c/Users/three/mtec1003
 
 ==========
 27. Type:
@@ -302,17 +281,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+DESKTOP-TV17OVR
 
 ==========
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
-
-
+You use the pwd command!
+/c/Users/three/mtec1003
 
 ==========
 29. If you're not in the right directory, type the following command:
@@ -321,9 +296,7 @@ cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
-
-
-
+:D
 
 
 ==========
@@ -338,29 +311,22 @@ lemon
 
 Write the one command you used below:
 ----------
-
-
-
-
+$ mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 31. Make another directory called aardvark.
 
 Write the command you used to create the directory below:
 ----------
-
-
-
-
+$ mkdir -p aardvark
 
 ==========
 32. List the files and directories in the current directory using the long format.
 
 What is the modified date of the aardvark directory?
 ----------
-
-
-
+aardvark/
+pineapple/
 
 
 ==========
@@ -372,9 +338,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
-
-
+$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -382,57 +346,43 @@ What command did you use?
 
 What command did you use?
 ----------
-
-
-
-
+$ cd foo/bar/baz
 
 ==========
 35. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
-
-
+cd ../..
 
 
 ==========
 36. What command is used to delete empty directories?
 ----------
-
-
-
+The 'rmdir' command is used to delete empty dictionaries!
 
 
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
-
-
+The 'pwd' command is used to print out current working directories!
 
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
-
-
-
-
+You pass the '-a' flag.
 
 ==========
 39. What's the shortcut for home directory?
 ----------
-
-
-
+The shortcut for the home directory is '~'.
 
 
 ==========
 40. What's a pathname?
 ----------
-
+A path name is the defined location of your
 
 
 
@@ -440,7 +390,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A directory is a defined location.
 
 
 
