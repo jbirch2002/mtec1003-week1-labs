@@ -382,7 +382,7 @@ The shortcut for the home directory is '~'.
 ==========
 40. What's a pathname?
 ----------
-A path name is the defined location of your
+A path name is the selected location in the terminal.
 
 
 
@@ -390,7 +390,7 @@ A path name is the defined location of your
 ==========
 41. What is a directory?
 ----------
-A directory is a defined location.
+A directory is the defined path leading up to the current pathname.
 
 
 
@@ -398,4 +398,4 @@ A directory is a defined location.
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
-
+/c/Users/three/Downloads
